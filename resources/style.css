@@ -19,12 +19,12 @@ header {
 
 #title {
     margin-top: 4em;
-    font-size: 8vh;
+    font-size: 4.5vw;
     text-align: center;
     color: white;
 }
 #description {
-    font-size: 5vh;
+    font-size: 3vw;
     color: white;
     text-align: center;
 }
@@ -37,7 +37,7 @@ header {
     border-radius: 8px;
 }
 #survey-form {
-    margin: 3em;
+    margin: 4em;
     border-radius: 15px;
     background-color: whitesmoke;
 
@@ -116,7 +116,7 @@ input[type=checkbox] {
 input[type=submit] {
     width: 20em;
     height: 4em;
-    font-size: 2vh;
+    font-size: 1vw;
     padding: 1em;
     color: whitesmoke;
     background-color:rgb(214, 66, 36);
@@ -137,7 +137,7 @@ font-size: 14px;
     display: flex;
     flex-direction: column;
     width: auto;
-    margin: 10em 3em 0em 3em;
+    margin: 5em 2em 0em 2em;
     background-color:rgb(208, 226, 230);
     }
     input[type=submit] {
@@ -148,6 +148,13 @@ font-size: 14px;
         width: 70%;
         height: 2em;
         
+    }
+    #survey-form {
+        margin: 2em;
+        border-radius: 15px;
+        background-color: whitesmoke;
+    
+    
     }
     
 }
