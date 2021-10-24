@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Road Syders Membership Form
+        </title>
+        <link href="./resources/style.css" type="text/css" rel="stylesheet"/>
+    </head>
+
+
+    <header>
+        <h1 id="title">Road Syderz Membership Form</h1>
+        <p id="description">Take this survey to evaluate membership status</p>
+    </header>
+
+
+    <section class="form-background">
+
+     <form id="survey-form" method="post">
+
+        <section class="input">
+            <label id="name-label" for="name" > Name
+                <br>
+            <input id="name" type="text" placeholder="Enter Your Name" value="name" required>
+            </label>
+                 <br>
+            <label id="email-label" for="email" > E-Mail
+                 <br>
+            <input id="email" type="email"   value="email" placeholder="Enter Your Email"  pattern=".+@globex\.com" size="30" value="default@example.com"required>
+            </label>
+               <br> 
+            <label id="number-label" for="number" > Age
+            <input id="number" type="number" placeholder="Select Age" value="age" required min="16" max="40">
+            </label>
+        </section>
+             <br>
+         <section class="member-gender">
+            <label for="gender" id="gender" ><span>Gender</span>
+            </label>
+            <br>
+            <input type="radio" name="gender" id="male" value="male" checked >
+            <label id="gender-option" for="male" >Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label id="gender-option" for="female">Female</label>
+         </section>
+
+          <br>
+
+         <section class="member-employ">
+             <label class="work" for="dropdown" >
+            Current Employment Status
+             </label>
+            <select name="dropdown" id="dropdown">
+            <option value="full-time">Full-Time Work</option>
+            <option value="part-time">Part-Time Work</option>
+            <option value="student">Student</option>
+            <option value="unemployed">Unemployed</option>
+            </select>
+          </section>
+
+
+         <section class="marital-status">
+            <span>Commitment Status</span>
+            <br>
+            <input type="checkbox" name="marital-status" id="married" value="married">
+            <label class="status"  for="married">Pay Dues</label>
+           <input type="checkbox" name="marital-status" id="divorced" value="divorced">
+            <label class="status" for="divorced">Attend Events</label>
+            <input type="checkbox" name="marital-status" id="single" value="single">
+           <label class="status" for="single">Assume Duties</label>
+         </section>
+
+            <br>
+
+          <section class="reason">
+             <label id="reason-label" for="reason">Membership Reasons(<span>optional</span>)</label>
+
+             <textarea id="reason" name="reason" rows="3" cols="35" placeholder="Please enter your reasons here" minlength="20" maxlength="80"></textarea>
+          </section>
+              
+             <br>
+
+          <section class="submission">
+             <input type="submit" id="submit" value="Submit">
+          </section>
+        </form>
+
+    </section>
+</html>

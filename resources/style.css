@@ -1,0 +1,153 @@
+html {
+    box-sizing: border-box;
+    background-image: url("./milky-way.jpg"); 
+    background-color: #5984bb; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:auto;
+    height: 10em;
+}
+
+#title {
+    margin-top: 4em;
+    font-size: 8vh;
+    text-align: center;
+    color: white;
+}
+#description {
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+}
+.form-background {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 10em 15em 0em 15em;
+    background-color:rgb(208, 226, 230);
+    border-radius: 8px;
+}
+#survey-form {
+    margin: 3em;
+    border-radius: 15px;
+    background-color: whitesmoke;
+
+
+}
+.input, .member-gender, .member-employ, .marital-status, .reason {
+ margin: 1em 1em 0.5em 2.5em;
+}
+
+input[type=text], input[type=email] {
+    width: 80%;
+    height: 3em;
+    padding: 1px 10px;
+    margin-top: 0.7em;
+    border: 1px solid rgb(214, 66, 36);
+    border-radius: 4px;
+}
+#name-label, #email-label, #number-label, #gender, .marital-status span, #reason-label {
+    color:rgb(34, 52, 133);
+    font-size: 20px;
+    line-height: 2em;
+} 
+input[type=number] {
+    width: 40%;
+    height: 3em;
+    margin-top: 5em;
+    padding: 0;
+    border: 1px solid rgb(214, 66, 36);
+    border-radius: 4px;
+}
+
+input[type=radio] {
+    font-size: 12px;
+    accent-color:rgb(214, 66, 36);
+}
+#gender-option {
+    color: rgb(34, 52, 133);
+}
+.work {
+    color:rgb(34, 52, 133);
+    font-size: 20px;
+    line-height: 2em;
+}
+#dropdown {
+    width: 50%;
+    height: 3em;
+    border: 1px solid rgb(214, 66, 36);
+    border-radius: 4px;
+}
+option {
+    color:rgb(34, 52, 133);
+}
+.marital-status {
+    margin-top: 3em;
+}
+input[type=checkbox] {
+    accent-color:rgb(214, 66, 36);
+}
+.status {
+    color:rgb(214, 66, 36);
+
+}
+#reason {
+    width: 40%;
+    height: 4em;
+    margin-top: 5px;
+    border: 1px solid rgb(214, 66, 36);
+    border-radius: 4px;
+}
+
+.submission {
+    display: flex;
+    margin-top: 6em;
+    justify-content: center;
+}
+input[type=submit] {
+    width: 20em;
+    height: 4em;
+    font-size: 2vh;
+    padding: 1em;
+    color: whitesmoke;
+    background-color:rgb(214, 66, 36);
+    border-radius: 15px;
+    padding:5px 15px; 
+    border:0 none;
+    cursor:pointer; 
+    margin-bottom: 3em;
+}
+
+.reason span {
+font-size: 14px;
+}
+
+@media (max-width: 900px ) {
+
+    .form-background {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 10em 3em 0em 3em;
+    background-color:rgb(208, 226, 230);
+    }
+    input[type=submit] {
+            font-size: 3vh;
+            margin-bottom: 8em;
+     }
+     #reason {
+        width: 70%;
+        height: 2em;
+        
+    }
+    
+}
